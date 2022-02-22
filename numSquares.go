@@ -1,6 +1,10 @@
 package lesson7
 
 //numSquares: 给你一个整数 n ，返回和为n的完全平方数的最少数量
+/*parameter
+n: 整数
+return: 和为n的完全平方数的最少数量
+*/
 func numSquares(n int) int {
 
 	opt := make([]int, n+1)
